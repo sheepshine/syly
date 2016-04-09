@@ -1,0 +1,132 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-size: 100% 100%;
+}
+.header {
+  width: 100%;
+  height: 1.193548rem;
+  background: #00AC78;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.header .logo {
+  width: 1.991935rem;
+  height: 0.733871rem;
+  background: url("../images/logo.png");
+  background-size: 100% 100%;
+  margin: 0.193548rem auto 0;
+  display: block;
+}
+.header .user-header {
+  width: 0.774194rem;
+  height: 0.774194rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.258065rem;
+  top: 0.225806rem ;
+  display: inline-block;
+}
+.index {
+  position: fixed;
+  top: 1.193548rem;
+  left: 0;
+  z-index: 2;
+}
+.index .main-bg {
+  width: 10.016129rem;
+  height: 6.129032rem;
+}
+.index .main-bg img {
+  width: 100%;
+  height: 100%;
+}
+.index .content ul.nav {
+  overflow: hidden;
+  box-shadow: 0px 10px 3px -3px #C1C5C4;
+  background: #fff;
+}
+.index .content ul.nav li {
+  font-size: 0.435484rem;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 0.451613rem 0;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+.index .content ul.nav li.active {
+  color: #00AC78;
+  border-bottom: 3px solid #00AC78;
+  box-shadow: none;
+}
+.index-item-warp {
+  background: #EAEFEE;
+  padding-top: 8.951613rem;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+.index-item-warp .item {
+  position: relative;
+  background: #fff;
+  margin-bottom: 0.209677rem;
+}
+.index-item-warp .item .item-img {
+  width: 100%;
+  height: 5.564516rem;
+}
+.index-item-warp .item .guide-header-img {
+  width: 0.580645rem;
+  height: 0.580645rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0.419355rem;
+  left: 0.241935rem;
+}
+.index-item-warp .item .guide-name {
+  font-size: 0.33871rem;
+  color: #fff;
+  position: absolute;
+  top: 0.572581rem;
+  left: 0.903226rem;
+}
+.index-item-warp .item .title {
+  position: absolute;
+  top: 4.112903rem;
+  left: 0.362903rem;
+}
+.index-item-warp .item .title .day {
+  font-size: 1.209677rem;
+  color: #fff;
+  font-weight: 700;
+}
+.index-item-warp .item .title .unit {
+  font-size: 0.483871rem;
+  color: #fff;
+}
+.index-item-warp .item .title .border-img {
+  width: 0.024194rem;
+  height: 0.903226rem;
+  background: url("../images/border.png");
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.index-item-warp .item .title .ftil {
+  font-size: 0.435484rem;
+  color: #fff;
+}
+.index-item-warp .item .loc-li {
+  margin: 0.322581rem 0.096774rem 0;
+  height: 1.008065rem;
+  overflow: hidden;
+}
+.index-item-warp .item .loc-li li {
+  float: left;
+  font-size: 0.33871rem;
+}
