@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+	<meta charset="utf-8" >
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+</head>
+<body>
+	<div class="order">
+		<ul class="nav">
+			<li class="active">预定的线路<b></b></li>
+			<li>预定的向导</li>
+		</ul>
+		<div class="content">
+			<ul>
+				<li class="way-list">
+					<img src="images/content/content2.jpg">
+					<h1>美国西部自驾游最美一号公路自驾畅游10天</h1>
+					<div class="info">
+						<span class="name">张晓向导</span>
+						<span class="day">10日游</span>
+					</div>
+					<div class="price-info">
+						<span class="price">￥359 </span>
+
+					</div>
+					<span class="date">预定时间：2015-02-13</span>
+				</li>
+
+				<li class="way-list">
+					<img src="images/content/content2.jpg">
+					<h1>美国西部自驾游最美一号公路自驾畅游10天</h1>
+					<div class="info">
+						<span class="name">张晓向导</span>
+						<span class="day">10日游</span>
+					</div>
+					<div class="price-info">
+						<span class="price">￥359 </span>
+
+					</div>
+					<span class="date">预定时间：2015-02-13</span>
+				</li>
+			</ul>
+			
+		</div>
+		<div class="content guide-box" style="display:none">
+			<div class="guide-warp">
+				<img src="images/content/userheader.png">
+				<span class="name">张小盒</span>
+				<span class="price">200/天</span>
+				<span class="date">2015/02/13</span>
+				<b class="right"></b>
+				<b class="bottom"></b>
+			</div>
+			<div class="guide-warp">
+				<img src="images/content/userheader.png">
+				<span class="name">张小盒</span>
+				<span class="price">200/天</span>
+				<span class="date">2015/02/13</span>
+				<b class="right"></b>
+				<b class="bottom"></b>
+			</div>
+			<div class="guide-warp">
+				<img src="images/content/userheader.png">
+				<span class="name">张小盒</span>
+				<span class="price">200/天</span>
+				<span class="date">2015/02/13</span>
+				<b class="bottom"></b>
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(".nav").find("li").tap(function(){
+			console.log($(this).index())
+			$(".nav").find("li").removeClass("active")
+			$(".nav").find("li").eq($(this).index()).addClass("active")
+			$(".content").hide()
+			$(".content").eq($(this).index()).show()
+		})
+	</script>
+</body>
+</html>
