@@ -541,3 +541,215 @@ body {
   left: 1.0rem;
   bottom: 0rem;
 }
+.guide-index-header {
+  height: 1.209677rem;
+  width: 100%;
+  background: #00AC78;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  font-size: 0.419355rem;
+  line-height: 1.209677rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.guide-index-header .return-btn {
+  width: 0.274194rem;
+  height: 0.516129rem;
+  background: url("../images/back-btn.png");
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.322581rem;
+  left: 0.322581rem;
+}
+.guide-index-content {
+  margin-top: 1.209677rem;
+  background: #EFE9DD;
+}
+.guide-index-content .self-bg {
+  width: 10.016129rem;
+  height: 6.274194rem;
+}
+.guide-index-content .self-bg img {
+  width: 100%;
+  height: 100%;
+}
+.guide-index-content .maintil {
+  font-size: 0.435484rem;
+  text-align: center;
+  margin: 0.322581rem 0;
+}
+.guide-index-content .guide-favico {
+  width: 2.564516rem;
+  height: 2.564516rem;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-sizing: border-box;
+  display: block;
+  margin: 0.322581rem auto 0;
+}
+.guide-index-content .guide-name {
+  font-size: 0.33871rem;
+  text-align: center;
+  margin: 0.16129rem 0;
+}
+.guide-index-content .degree {
+  font-size: 0.370968rem;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0.16129rem;
+}
+.guide-index-content .introduce {
+  padding: 0.16129rem;
+  box-sizing: border-box;
+}
+.guide-index-content .introduce h2 {
+  font-size: 0.33871rem;
+  color: #7B7B7B;
+}
+.guide-index-content .introduce p {
+  font-size: 0.33871rem;
+  color: #7B7B7B;
+  display: inline-block;
+  line-height: 0.370968remz;
+}
+.guide-index-content .more-about {
+  width: 1.830645rem;
+  height: 1.032258rem;
+  background: url("../images/more-btn.jpg");
+  background-size: 100% 100%;
+  border: none;
+  margin: 0.16129rem auto;
+  display: block;
+}
+.guide-index-content .button-list-warp {
+  text-align: center;
+  margin-top: 0.322581rem;
+}
+.guide-index-content .button-list-warp .button-item {
+  display: inline-block;
+  width: 1.733871rem;
+  height: 2.677419rem;
+  text-align: center;
+  font-size: 0.403226rem;
+  background: url("../images/photo-ico.jpg") no-repeat center bottom;
+  background-size: 1.733871rem 1.867742rem;
+  margin: 0 0.483871rem;
+}
+.guide-index-content .button-list-warp .button-item.cost {
+  background: url("../images/cost-ico.jpg") no-repeat center bottom;
+  background-size: 1.733871rem 1.867742rem;
+}
+.guide-index-content .more-cost-info {
+  width: 9.516129rem;
+  background: #fff;
+  margin: 0.564516rem auto 0;
+  font-size: 0.370968rem;
+  padding: 0 0.258065rem;
+  box-sizing: border-box;
+}
+.guide-index-content .more-cost-info h1 {
+  font-size: 0.435484rem;
+  text-align: center;
+  line-height: 1.435484rem;
+  border-bottom: 2px solid #DFDACC;
+}
+.guide-index-content .more-cost-info .cost-item,
+.guide-index-content .more-cost-info .cost-item-specil {
+  margin: 0.354839rem 0;
+  color: #646464;
+  line-height: 0.725806rem;
+  box-sizing: border-box;
+}
+.guide-index-content .more-cost-info .cost-item:last-child {
+  border-bottom: 2px solid #DFDACC;
+}
+.guide-index-content .more-rule {
+  width: 9.516129rem;
+  margin: 0.564516rem auto 0;
+}
+.guide-index-content .more-rule .rule-item {
+  margin: 0.354839rem 0;
+  height: 1.370968rem;
+  padding: 0 0.435484rem;
+  box-sizing: border-box;
+  border-top: 2px solid #DFDACC;
+  position: relative;
+}
+.guide-index-content .more-rule .rule-item img {
+  position: absolute;
+  top: 0.40968rem;
+  left: 0.435484rem;
+}
+.guide-index-content .more-rule .rule-item h1 {
+  display: inline-block;
+  font-size: 0.370968rem;
+  line-height: 1.370968rem;
+  margin-left: 0.645161rem;
+}
+.guide-index-content .more-rule .rule-item .grade {
+  font-size: 0.370968rem;
+  color: #00ac78;
+  margin-left: 2.806452rem;
+}
+.guide-index-content .more-rule .rule-item .view-btn {
+  font-size: 0.370968rem;
+  color: #00ac78;
+  position: absolute;
+  right: 0.435484rem;
+  top: 0.40968rem;
+}
+.guide-index-content .more-rule .rule-item:last-child {
+  border-bottom: 2px solid #DFDACC;
+}
+.guide-index-content .card-bg {
+  width: 9.306452rem;
+  height: 6.387097rem;
+  background: url("../images/card-bg.jpg");
+  background-size: 100% 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.guide-index-content .card-bg h1 {
+  font-size: 0.435484rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.419355rem;
+}
+.guide-index-content .card-bg .info {
+  color: #fff;
+  font-size: 0.435484rem;
+  line-height: 1.106452rem;
+  margin-left: 3.419355rem;
+}
+.guide-index-content .card-bg img {
+  width: 2.419355rem;
+  height: 2.419355rem;
+  position: absolute;
+  top: 1.845161rem;
+  left: 0.306452rem;
+}
+.guide-index-content .card-bg .guide-id {
+  font-size: 0.535484rem;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  top: 5.012903rem;
+  left: 0.245161rem;
+}
+.guide-index-content .guide-more-photo {
+  width: 9.516129rem;
+  margin: 0.564516rem auto 0;
+  border-top: 2px solid #DFDACC;
+  padding-top: 0.483871rem;
+}
+.guide-index-content .guide-more-photo img {
+  width: 100%;
+}
+.guide-index-content .guide-more-photo h1 {
+  font-size: 0.33871rem;
+  text-align: center;
+  line-height: 0.806452rem;
+}
