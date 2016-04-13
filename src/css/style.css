@@ -322,3 +322,77 @@ body {
   display: block;
   margin: 106px auto 0;
 }
+.person {
+  background: #EAEFEE;
+  width: 100%;
+  height: 100%;
+}
+.person .bg {
+  width: 10.016129rem;
+  height: 4.951613rem;
+  background: url("../images/person-bg.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+.person .back-btn {
+  width: 0.274194rem;
+  height: 0.516129rem;
+  background: url("../images/back-btn.png");
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0.516129rem;
+  top: 0.540323rem;
+}
+.person .user-favico {
+  width: 1.66129rem;
+  height: 1.66129rem;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 3.951613rem;
+  margin-left: -0.83065rem;
+}
+.person .user-nickname {
+  font-size: 0.435484rem;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding: 1.241935rem 0 0.725806rem;
+  background: #fff;
+  border-bottom: 1px solid #DEDEDE;
+}
+.person .setting-list {
+  height: 1.193548rem;
+  width: 100%;
+  background: #fff;
+  margin-top: 0.516129rem;
+  overflow: hidden;
+  position: relative;
+}
+.person .setting-list .ico {
+  width: 0.548387rem;
+  height: 0.548387rem;
+  background: url("../images/setting-ico1.png");
+  background-size: 100% 100%;
+  margin: 0.33871rem 0.967742rem 0 0.241935rem;
+  display: inline-block;
+}
+.person .setting-list .ico-name {
+  font-size: 0.435484rem;
+  line-height: 1.193548rem;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 500;
+}
+.person .setting-list .more-btn {
+  width: 0.25rem;
+  height: 0.475806rem;
+  background: url("../images/back-btn-right.png");
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0.241935rem;
+  top: 0.354839rem;
+}
