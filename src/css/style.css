@@ -553,6 +553,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 99;
 }
 .guide-index-header .return-btn {
   width: 0.274194rem;
@@ -566,6 +567,20 @@ body {
 .guide-index-content {
   margin-top: 1.209677rem;
   background: #EFE9DD;
+}
+.guide-index-content .order-btn {
+  font-size: 0.335484rem;
+  color: #fff;
+  background: #00AC78;
+  width: 1.012903rem;
+  height: 1.012903rem;
+  text-align: center;
+  line-height: 1.012903rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0.483871rem;
+  left: 0.483871rem;
+  opacity: 0.8;
 }
 .guide-index-content .self-bg {
   width: 10.016129rem;
@@ -682,6 +697,8 @@ body {
   position: absolute;
   top: 0.40968rem;
   left: 0.435484rem;
+  width: 0.443548rem;
+  height: 0.556452rem;
 }
 .guide-index-content .more-rule .rule-item h1 {
   display: inline-block;
@@ -752,4 +769,197 @@ body {
   font-size: 0.33871rem;
   text-align: center;
   line-height: 0.806452rem;
+}
+.guide-about {
+  padding-bottom: 0.806452rem;
+}
+.guide-about .self-bg {
+  background: #EFE9DD;
+  position: relative;
+  border-bottom: 2px solid #dad5c5;
+  height: 6.919355rem;
+}
+.guide-about .self-bg img {
+  height: 5.483871rem;
+}
+.guide-about .self-bg .favico {
+  width: 1.951613rem;
+  height: 1.951613rem;
+  border: 6px solid #fff;
+  box-sizing: border-box;
+  position: absolute;
+  top: 4.483871rem;
+  right: 0.725806rem;
+}
+.guide-info-form {
+  background: #fff;
+  border-bottom: 2px solid #DAD5C5;
+  margin-bottom: 0.564516rem;
+  overflow: hidden;
+}
+.guide-info-form span.label {
+  box-sizing: border-box;
+  padding: 0.33871rem  0.33871rem;
+  width: 30%;
+  display: inline-block;
+  font-size: 0.403226rem;
+  color: #7b7b7b;
+  height: 1.112903rem;
+  float: left;
+}
+.guide-info-form span.text {
+  border-bottom: 2px solid #DAD5C5;
+  width: 68%;
+  display: inline-block;
+  padding: 0.33871rem  0;
+  box-sizing: border-box;
+  font-size: 0.435484rem;
+  color: #7c7c7c;
+  height: 1.112903rem;
+  float: left;
+}
+.introduce-index {
+  background: #EFE9DD;
+  margin-top: 1.209677rem;
+  padding: 0.241935rem;
+  display: inline-block;
+}
+.introduce-index h1 {
+  font-size: 0.435484rem;
+  color: #7c7c7c;
+  padding: 0.483871rem 0;
+  display: inline-block;
+}
+.introduce-index p {
+  font-size: 0.322581rem;
+  display: inline-block;
+  color: #7c7c7c;
+  line-height: 0.603226rem;
+}
+.introduce-index img {
+  width: 100%;
+  margin: 0.483871rem 0;
+}
+.cost-index {
+  background: #EFE9DD;
+  margin-top: 1.209677rem;
+  display: inline-block;
+}
+.cost-index .top-img-warp {
+  position: relative;
+}
+.cost-index .top-img-warp .til {
+  font-size: 0.405484rem;
+  width: 4.451613rem;
+  position: absolute;
+  color: #fff;
+  top: 1.436452rem;
+  right: 0.36129rem;
+}
+.cost-index .price_titel {
+  background: #00AC78;
+  padding: 0.303226rem 0.322581rem;
+  margin-top: 0.564516rem;
+}
+.cost-index .price_titel h1 {
+  font-size: 0.33871rem;
+  display: inline-block;
+  color: #fff;
+}
+.cost-index .fee-top {
+  width: 100%;
+}
+.cost-index .fee-box {
+  padding: 0 0.241935rem;
+}
+.cost-index .fee-box .service-fee,
+.cost-index .fee-box .pay-detail {
+  position: relative;
+  background: #fff;
+  padding: 0.241935rem;
+  border: 2px solid #cfcfcf;
+  margin-top: 0.290323rem;
+}
+.cost-index .fee-box .service-fee dl dt img,
+.cost-index .fee-box .pay-detail dl dt img {
+  width: 2.354839rem;
+  height: 2.33871rem;
+}
+.cost-index .fee-box .service-fee .service-title,
+.cost-index .fee-box .pay-detail .service-title {
+  color: #5E5E5E;
+  font-size: 0.419355rem;
+  display: inline-block;
+  position: absolute;
+  left: 2.887097rem;
+  top: 0.354839rem;
+}
+.cost-index .fee-box .service-fee .text-price,
+.cost-index .fee-box .pay-detail .text-price {
+  font-size: 0.33871rem;
+  display: inline-block;
+  position: absolute;
+  left: 2.887097rem;
+  top: 1.048387rem;
+  color: #6b6b6b;
+}
+.cost-index .fee-box .service-fee .text-price2,
+.cost-index .fee-box .pay-detail .text-price2 {
+  top: 1.648387rem;
+}
+.cost-index .fee-box .service-fee .text-oil-detail,
+.cost-index .fee-box .pay-detail .text-oil-detail {
+  font-size: 0.33871rem;
+  display: inline-block;
+  color: #6b6b6b;
+  line-height: 0.603226rem;
+}
+.cost-index .fee-box .price_titel2 {
+  margin-top: 0.464516rem;
+}
+p {
+  background: tranparent url('about:blank');
+  word-break: break-all;
+}
+.drop-out-guide {
+  position: relative;
+  padding: 0.5rem 0.483871rem;
+  box-sizing: border-box;
+}
+.drop-out-guide img {
+  width: 1.241935rem;
+  height: 1.241935rem;
+  border-radius: 50%;
+}
+.drop-out-guide .name {
+  font-size: 0.370968rem;
+  position: absolute;
+  top: 0.608387rem;
+  left: 1.983871rem;
+  color: #666;
+}
+.drop-out-guide .type-label {
+  font-size: 0.370968rem;
+  position: absolute;
+  top: 1.308387rem;
+  left: 1.983871rem;
+  color: #666;
+}
+.drop-out-guide .type {
+  font-size: 0.435484rem;
+  position: absolute;
+  top: 1.258387rem;
+  left: 5.583871rem;
+  color: #666;
+}
+.drop-out-index {
+  width: 100%;
+  height: 100%;
+}
+.drop-out-rule {
+  font-size: 0.370968rem;
+  color: #666;
+  padding: 0.451613rem 0.403226rem;
+  line-height: 0.564516rem;
+  background: #fff;
 }
