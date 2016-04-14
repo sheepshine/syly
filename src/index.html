@@ -5,6 +5,7 @@
 	<meta charset="utf-8" >
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/zepto.min.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -75,5 +76,61 @@
 				</ul>
 			</div>	
 	</div>
+	<div class="index-item-warp" style="display:none">
+			<div class="item">
+				<img class="item-img" src="images/content/content.jpg">
+				<img class="guide-header-img" src="images/content/userheader.png">
+				<span class="guide-name">张惠妹向导</span>
+				<div class="place-name">
+					大理
+				</div>
+				<span class="loc-li">
+					白族自治州地处云南省中部偏西，海拔2090米，东邻楚
+				</span>
+			</div>
+			<div class="item">
+				<img class="item-img" src="images/content/content.jpg">
+				<img class="guide-header-img" src="images/content/userheader.png">
+				<span class="guide-name">张惠妹向导</span>
+				<div class="place-name">
+					大理
+				</div>
+				<span class="loc-li">
+					白族自治州地处云南省中部偏西，海拔2090米，东邻楚
+				</span>
+			</div>	
+			<div class="item">
+				<img class="item-img" src="images/content/content.jpg">
+				<img class="guide-header-img" src="images/content/userheader.png">
+				<span class="guide-name">张惠妹向导</span>
+				<div class="place-name">
+					大理
+				</div>
+				<span class="loc-li">
+					白族自治州地处云南省中部偏西，海拔2090米，东邻楚
+				</span>
+			</div>	
+			<div class="item">
+				<img class="item-img" src="images/content/content.jpg">
+				<img class="guide-header-img" src="images/content/userheader.png">
+				<span class="guide-name">张惠妹向导</span>
+				<div class="place-name">
+					大理
+				</div>
+				<span class="loc-li">
+					白族自治州地处云南省中部偏西，海拔2090米，东邻楚
+				</span>
+			</div>		
+			
+	</div>
+	<script type="text/javascript">
+		$(".nav").find("li").tap(function(){
+			console.log($(this).index())
+			$(".nav").find("li").removeClass("active")
+			$(".nav").find("li").eq($(this).index()).addClass("active")
+			$(".index-item-warp").hide()
+			$(".index-item-warp").eq($(this).index()).show()
+		})
+	</script>
 </body>
 </html>

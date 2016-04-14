@@ -123,6 +123,18 @@ body {
   font-size: 0.435484rem;
   color: #fff;
 }
+.index-item-warp .item .place-name {
+  font-size: 0.967742rem;
+  position: absolute;
+  top: 2.33871rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+}
 .index-item-warp .item .loc-li {
   margin: 0.322581rem 0.096774rem 0;
   height: 1.008065rem;
@@ -131,6 +143,11 @@ body {
 .index-item-warp .item .loc-li li {
   float: left;
   font-size: 0.33871rem;
+}
+.index-item-warp .item span.loc-li {
+  font-size: 0.33871rem;
+  height: 1.008065rem;
+  display: inline-block;
 }
 .place {
   background: #EAEFEE;
