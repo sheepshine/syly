@@ -5,6 +5,7 @@
   <meta charset="utf-8" >
   <title></title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/zepto.min.js"></script>
 </head>
 <body class="bgfix">
   <div class="guide-index-header">
@@ -12,15 +13,29 @@
     相册-我的照片
   </div>
   <div class="photo-warp photo-list-item-warp">
-       <a href="images/content/content1.jpg"><img class="photo-list-item" src="images/content/content1.jpg" ></a>
-       <a href="images/content/content1.jpg"><img class="photo-list-item" src="images/content/content1.jpg" ></a>
-       <a href="images/content/content1.jpg"><img class="photo-list-item" src="images/content/content1.jpg" ></a>
-       <a href="images/content/content1.jpg"><img class="photo-list-item" src="images/content/content1.jpg" ></a>
-       <a href="images/content/content1.jpg"><img class="photo-list-item" src="images/content/content1.jpg" ></a>
-       <a href="images/content/content1.jpg"><img class="photo-list-item" src="images/content/content1.jpg" ></a>
-       <a href="images/content/content1.jpg"><img class="photo-list-item" src="images/content/content1.jpg" ></a>
-       <a href="images/content/content1.jpg"><img class="photo-list-item" src="images/content/content1.jpg" ></a>
+      <img class="photo-list-item" src="images/content/content1.jpg" >
+      <img class="photo-list-item" src="images/content/content2.jpg" >
+      <img class="photo-list-item" src="images/content/guide.jpg">
+      <img class="photo-list-item" src="images/content/content1.jpg" >
+      <img class="photo-list-item" src="images/content/content2.jpg" >
+      <img class="photo-list-item" src="images/content/guide.jpg">
+      <img class="photo-list-item" src="images/content/content1.jpg" >
+      <img class="photo-list-item" src="images/content/content2.jpg" >
+      <img class="photo-list-item" src="images/content/guide.jpg">
 
   </div>
+  <div class="view-photo-warp" style="display:none">
+    <button class="close-btn"></button>
+    <img class="view-photo-img" src="images/content/content1.jpg">
+  </div>
+  <script type="text/javascript">
+  $(".close-btn").tap(function(){
+      $(".view-photo-warp").hide()
+  })
+  $(".photo-list-item-warp").find("img").tap(function(){
+      $(".view-photo-warp").show()
+      $(".view-photo-img").attr("src",$(this).attr("src"))
+  })
+  </script>
 </body>
 </html>
